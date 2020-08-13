@@ -2,4 +2,14 @@
 class Character < ActiveRecord::Base
   belongs_to :actor
   belongs_to :show
-end
+
+def say_that_thing_you_say 
+  #binding.pry
+  "#{self.name} always says: #{self.catchphrase}"
+end 
+
+def build_show(network)
+binding.pry
+end 
+end 
+  
