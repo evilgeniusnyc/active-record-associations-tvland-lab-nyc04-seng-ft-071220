@@ -7,9 +7,6 @@ def say_that_thing_you_say
   #binding.pry
   "#{self.name} always says: #{self.catchphrase}"
 end 
+end
 
-def build_show(network)
-binding.pry
-end 
-end 
   
